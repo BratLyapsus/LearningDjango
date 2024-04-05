@@ -5,6 +5,7 @@
     <RootNamespace>web-appp</RootNamespace>
     <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
     <SuppressPackageInstallationPrompt>True</SuppressPackageInstallationPrompt>
+    <TestFramework>Pytest</TestFramework>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -42,6 +43,16 @@
     <Compile Include="main\views.py" />
     <Compile Include="main\__init__.py" />
     <Compile Include="manage.py" />
+    <Compile Include="news\admin.py" />
+    <Compile Include="news\apps.py" />
+    <Compile Include="news\migrations\__init__.py" />
+    <Compile Include="news\models.py" />
+    <Compile Include="news\tests.py" />
+    <Compile Include="news\urls.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="news\views.py" />
+    <Compile Include="news\__init__.py" />
     <Compile Include="pictures\admin.py" />
     <Compile Include="pictures\apps.py" />
     <Compile Include="pictures\migrations\__init__.py" />
@@ -58,17 +69,30 @@
     <Compile Include="web_appp\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="main\static\main\css\main.css" />
     <Content Include="main\templates\main\about.html" />
+    <Content Include="main\templates\main\contact.html" />
     <Content Include="main\templates\main\index.html" />
     <Content Include="main\templates\main\layout.html" />
+    <Content Include="news\templates\news\index.html" />
+    <Content Include="news\templates\news\news_home.html" />
     <Content Include="pictures\templates\pictures\index.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="main\" />
     <Folder Include="main\migrations\" />
+    <Folder Include="main\static\" />
+    <Folder Include="main\static\main\" />
+    <Folder Include="main\static\main\css\" />
+    <Folder Include="main\static\main\img\" />
+    <Folder Include="main\static\main\js\" />
     <Folder Include="main\templates\" />
     <Folder Include="main\templates\main\" />
+    <Folder Include="news\" />
+    <Folder Include="news\migrations\" />
+    <Folder Include="news\templates\" />
+    <Folder Include="news\templates\news\" />
     <Folder Include="pictures\" />
     <Folder Include="pictures\migrations\" />
     <Folder Include="pictures\templates\" />
