@@ -1,4 +1,4 @@
-body {
+﻿body {
     background: #2c2c2c;
 }
 
@@ -55,13 +55,14 @@ main .features {
     width: 75%;
 }
 
-    main .features h1 {
-        font-size: 50px;
-    }
+    main .features h1 {font-size: 50px;}
 
     main .features p {
         max-width: 400px;
         margin: 20px auto
     }
 
+.alert-warning {
+    width: 100%;
+}
 

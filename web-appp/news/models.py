@@ -8,6 +8,7 @@ class Articles(models.Model):
     date = models.DateTimeField('Дата публикации')
     
     def __str__(self):
+        #return f'Новость: {self.title}'
         return self.title
     
     class Meta:
