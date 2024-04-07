@@ -78,6 +78,8 @@
     <Content Include="main\templates\main\index.html" />
     <Content Include="main\templates\main\layout.html" />
     <Content Include="news\templates\news\create.html" />
+    <Content Include="news\templates\news\delete.html" />
+    <Content Include="news\templates\news\details_view.html" />
     <Content Include="news\templates\news\index.html" />
     <Content Include="news\templates\news\news_home.html" />
     <Content Include="pictures\templates\pictures\index.html" />
