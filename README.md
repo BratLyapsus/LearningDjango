@@ -1,1 +1,1 @@
-This is first project in Django learning how to work with this framework
+This is first project in Django learning how to work with this framework. I did it w/o using GitHub since it was learning project with a lot of stupid things and errors. Next Django project i'm planning to do using GitHub
