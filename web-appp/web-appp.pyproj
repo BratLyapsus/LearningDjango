@@ -45,6 +45,9 @@
     <Compile Include="manage.py" />
     <Compile Include="news\admin.py" />
     <Compile Include="news\apps.py" />
+    <Compile Include="news\forms.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="news\migrations\__init__.py" />
     <Compile Include="news\models.py" />
     <Compile Include="news\tests.py" />
@@ -74,6 +77,7 @@
     <Content Include="main\templates\main\contact.html" />
     <Content Include="main\templates\main\index.html" />
     <Content Include="main\templates\main\layout.html" />
+    <Content Include="news\templates\news\create.html" />
     <Content Include="news\templates\news\index.html" />
     <Content Include="news\templates\news\news_home.html" />
     <Content Include="pictures\templates\pictures\index.html" />
